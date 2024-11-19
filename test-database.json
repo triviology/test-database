@@ -1,0 +1,30 @@
+{
+    "name": "Test Database",
+    "codename": "test-database",
+    "url": "https://test-database.com",
+    "savefile": "testdb",
+    "type": "database",
+    "license": "None",
+    "description": "To test triviology features. No real questions.",
+    "categories": [
+        {"icon": "Icons.question_answer", "text": "Test Category", "id": 1}
+    ],
+    "total_questions": "3",
+    "total_categories": "1",
+    "total_difficulty_levels": "3",
+    "language": "en",
+    "questions": {
+        "1": {
+            "easy": [
+                {"question": "What is the first letter of the English alphabet?", "correct_answer": "A", "incorrect_answers": ["C", "D", "B"]}
+            ],
+            "medium": [
+                {"question": "What color is the sky on a clear day?", "correct_answer": "Blue", "incorrect_answers": ["Green", "Red", "Yellow"]}
+            ],
+            "hard": [
+                {"question": "What is the capital of France?", "correct_answer": "Paris", "incorrect_answers": ["London", "Berlin", "Madrid"]}
+            ]
+        }
+    },
+    "version": "v1.0.0"
+}
