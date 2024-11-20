@@ -99,5 +99,12 @@
             ]
         }
     },
+    "question_count": {
+        "1": {
+            "easy": 2,
+            "medium": 3,
+            "hard": 2
+        }
+    },
     "version": "v1.0.0"
 }
