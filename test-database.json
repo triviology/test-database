@@ -101,9 +101,21 @@
     },
     "question_count": {
         "1": {
-            "easy": 2,
-            "medium": 3,
-            "hard": 2
+            "easy": {
+                "multiple": 1,
+                "boolean": 1,
+                "any": 2
+            },
+            "medium": {
+                "multiple": 1,
+                "boolean": 2,
+                "any": 3
+            },
+            "hard": {
+                "multiple": 1,
+                "boolean": 2,
+                "any": 2
+            }
         }
     },
     "version": "v1.0.0"
