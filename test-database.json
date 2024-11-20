@@ -7,22 +7,95 @@
     "license": "None",
     "description": "To test triviology features. No real questions.",
     "categories": [
-        {"icon": "Icons.question_answer", "text": "Test Category", "id": 1}
+        {
+            "icon": "Icons.question_answer",
+            "text": "Test Category",
+            "id": 1
+        }
     ],
     "total_questions": "3",
     "total_categories": "1",
     "total_difficulty_levels": "3",
     "language": "en",
-    "questions": {
+    "questions_multiple": {
         "1": {
             "easy": [
-                {"question": "What is the first letter of the English alphabet?", "correct_answer": "A", "incorrect_answers": ["C", "D", "B"]}
+                {
+                    "question": "What is the first letter of the English alphabet?",
+                    "correct_answer": "A",
+                    "incorrect_answers": [
+                        "C",
+                        "D",
+                        "B"
+                    ]
+                }
             ],
             "medium": [
-                {"question": "What color is the sky on a clear day?", "correct_answer": "Blue", "incorrect_answers": ["Green", "Red", "Yellow"]}
+                {
+                    "question": "What color is the sky on a clear day?",
+                    "correct_answer": "Blue",
+                    "incorrect_answers": [
+                        "Green",
+                        "Red",
+                        "Yellow"
+                    ]
+                }
             ],
             "hard": [
-                {"question": "What is the capital of France?", "correct_answer": "Paris", "incorrect_answers": ["London", "Berlin", "Madrid"]}
+                {
+                    "question": "What is the capital of France?",
+                    "correct_answer": "Paris",
+                    "incorrect_answers": [
+                        "London",
+                        "Berlin",
+                        "Madrid"
+                    ]
+                }
+            ]
+        }
+    },
+    "questions_boolean": {
+        "1": {
+            "easy": [
+                {
+                    "question": "Is C the first letter of the English alphabet?",
+                    "correct_answer": "False",
+                    "incorrect_answers": [
+                        "True"
+                    ]
+                }
+            ],
+            "medium": [
+                {
+                    "question": "Is the capital of France Paris?",
+                    "correct_answer": "True",
+                    "incorrect_answers": [
+                        "False"
+                    ]
+                },
+                {
+                    "question": "Is water a solid at room temperature?",
+                    "correct_answer": "False",
+                    "incorrect_answers": [
+                        "True"
+                    ]
+                }
+            ],
+            "hard": [
+                {
+                    "question": "Is the Great Wall of China visible from space?",
+                    "correct_answer": "False",
+                    "incorrect_answers": [
+                        "True"
+                    ]
+                },
+                {
+                    "question": "Is the chemical symbol for gold Au?",
+                    "correct_answer": "True",
+                    "incorrect_answers": [
+                        "False"
+                    ]
+                }
             ]
         }
     },
